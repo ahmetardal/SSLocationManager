@@ -15,11 +15,6 @@
 		2899E5220DE3E06400AC0155 /* SSLocationManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SSLocationManagerViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* SSLocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SSLocationManagerViewController.m */; };
-		592F0BD3138BEC7B002A3967 /* SSWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BC9138BEC7B002A3967 /* SSWebRequest.m */; };
-		592F0BD4138BEC7B002A3967 /* SSWebRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BCC138BEC7B002A3967 /* SSWebRequestParams.m */; };
-		592F0BD5138BEC7B002A3967 /* YahooPlaceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BCE138BEC7B002A3967 /* YahooPlaceData.m */; };
-		592F0BD6138BEC7B002A3967 /* SSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BD0138BEC7B002A3967 /* SSLocationManager.m */; };
-		592F0BD7138BEC7B002A3967 /* YahooPlaceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BD2138BEC7B002A3967 /* YahooPlaceFinder.m */; };
 		592F0BEB138BECD4002A3967 /* NSObject+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BDC138BECD4002A3967 /* NSObject+Helpers.m */; };
 		592F0BEC138BECD4002A3967 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE0138BECD4002A3967 /* NSObject+SBJSON.m */; };
 		592F0BED138BECD4002A3967 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE2138BECD4002A3967 /* NSString+SBJSON.m */; };
@@ -31,6 +26,11 @@
 		592F0C1B138BEF48002A3967 /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0C1A138BEF48002A3967 /* UIHelpers.m */; };
 		592F0C2B138BF0E8002A3967 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0C2A138BF0E8002A3967 /* NSString+Helpers.m */; };
 		592F0C39138BF127002A3967 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592F0C38138BF127002A3967 /* CoreLocation.framework */; };
+		59D125EF138D298500D9EFC5 /* SSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D125EA138D298500D9EFC5 /* SSLocationManager.m */; };
+		59D125F0138D298500D9EFC5 /* YahooPlaceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D125EC138D298500D9EFC5 /* YahooPlaceData.m */; };
+		59D125F1138D298500D9EFC5 /* YahooPlaceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D125EE138D298500D9EFC5 /* YahooPlaceFinder.m */; };
+		59D125F8138D298E00D9EFC5 /* SSWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D125F4138D298E00D9EFC5 /* SSWebRequest.m */; };
+		59D125F9138D298E00D9EFC5 /* SSWebRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D125F7138D298E00D9EFC5 /* SSWebRequestParams.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,17 +46,6 @@
 		28D7ACF70DDB3853001CB0EB /* SSLocationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocationManagerViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SSLocationManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManager_Prefix.pch; sourceTree = "<group>"; };
-		592F0BC8138BEC7B002A3967 /* SSWebRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequest.h; sourceTree = "<group>"; };
-		592F0BC9138BEC7B002A3967 /* SSWebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebRequest.m; sourceTree = "<group>"; };
-		592F0BCA138BEC7B002A3967 /* SSWebRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequestDelegate.h; sourceTree = "<group>"; };
-		592F0BCB138BEC7B002A3967 /* SSWebRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequestParams.h; sourceTree = "<group>"; };
-		592F0BCC138BEC7B002A3967 /* SSWebRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebRequestParams.m; sourceTree = "<group>"; };
-		592F0BCD138BEC7B002A3967 /* YahooPlaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooPlaceData.h; sourceTree = "<group>"; };
-		592F0BCE138BEC7B002A3967 /* YahooPlaceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooPlaceData.m; sourceTree = "<group>"; };
-		592F0BCF138BEC7B002A3967 /* SSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManager.h; sourceTree = "<group>"; };
-		592F0BD0138BEC7B002A3967 /* SSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocationManager.m; sourceTree = "<group>"; };
-		592F0BD1138BEC7B002A3967 /* YahooPlaceFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooPlaceFinder.h; sourceTree = "<group>"; };
-		592F0BD2138BEC7B002A3967 /* YahooPlaceFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooPlaceFinder.m; sourceTree = "<group>"; };
 		592F0BDB138BECD4002A3967 /* NSObject+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Helpers.h"; sourceTree = "<group>"; };
 		592F0BDC138BECD4002A3967 /* NSObject+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Helpers.m"; sourceTree = "<group>"; };
 		592F0BDE138BECD4002A3967 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -79,6 +68,17 @@
 		592F0C29138BF0E8002A3967 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
 		592F0C2A138BF0E8002A3967 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
 		592F0C38138BF127002A3967 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		59D125E9138D298500D9EFC5 /* SSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManager.h; sourceTree = "<group>"; };
+		59D125EA138D298500D9EFC5 /* SSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocationManager.m; sourceTree = "<group>"; };
+		59D125EB138D298500D9EFC5 /* YahooPlaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooPlaceData.h; sourceTree = "<group>"; };
+		59D125EC138D298500D9EFC5 /* YahooPlaceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooPlaceData.m; sourceTree = "<group>"; };
+		59D125ED138D298500D9EFC5 /* YahooPlaceFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooPlaceFinder.h; sourceTree = "<group>"; };
+		59D125EE138D298500D9EFC5 /* YahooPlaceFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooPlaceFinder.m; sourceTree = "<group>"; };
+		59D125F3138D298E00D9EFC5 /* SSWebRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequest.h; sourceTree = "<group>"; };
+		59D125F4138D298E00D9EFC5 /* SSWebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebRequest.m; sourceTree = "<group>"; };
+		59D125F5138D298E00D9EFC5 /* SSWebRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequestDelegate.h; sourceTree = "<group>"; };
+		59D125F6138D298E00D9EFC5 /* SSWebRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequestParams.h; sourceTree = "<group>"; };
+		59D125F7138D298E00D9EFC5 /* SSWebRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebRequestParams.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SSLocationManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSLocationManager-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,17 +164,8 @@
 			children = (
 				592F0BDA138BECD4002A3967 /* Helpers */,
 				592F0BDD138BECD4002A3967 /* SBJSON */,
-				592F0BCF138BEC7B002A3967 /* SSLocationManager.h */,
-				592F0BD0138BEC7B002A3967 /* SSLocationManager.m */,
-				592F0BC8138BEC7B002A3967 /* SSWebRequest.h */,
-				592F0BC9138BEC7B002A3967 /* SSWebRequest.m */,
-				592F0BCA138BEC7B002A3967 /* SSWebRequestDelegate.h */,
-				592F0BCB138BEC7B002A3967 /* SSWebRequestParams.h */,
-				592F0BCC138BEC7B002A3967 /* SSWebRequestParams.m */,
-				592F0BCD138BEC7B002A3967 /* YahooPlaceData.h */,
-				592F0BCE138BEC7B002A3967 /* YahooPlaceData.m */,
-				592F0BD1138BEC7B002A3967 /* YahooPlaceFinder.h */,
-				592F0BD2138BEC7B002A3967 /* YahooPlaceFinder.m */,
+				59D125E8138D298500D9EFC5 /* SSLocationManager */,
+				59D125F2138D298E00D9EFC5 /* SSWebRequest */,
 			);
 			path = SSLocationManager;
 			sourceTree = "<group>";
@@ -212,6 +203,31 @@
 				592F0BEA138BECD4002A3967 /* SBJsonWriter.m */,
 			);
 			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		59D125E8138D298500D9EFC5 /* SSLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				59D125E9138D298500D9EFC5 /* SSLocationManager.h */,
+				59D125EA138D298500D9EFC5 /* SSLocationManager.m */,
+				59D125EB138D298500D9EFC5 /* YahooPlaceData.h */,
+				59D125EC138D298500D9EFC5 /* YahooPlaceData.m */,
+				59D125ED138D298500D9EFC5 /* YahooPlaceFinder.h */,
+				59D125EE138D298500D9EFC5 /* YahooPlaceFinder.m */,
+			);
+			path = SSLocationManager;
+			sourceTree = "<group>";
+		};
+		59D125F2138D298E00D9EFC5 /* SSWebRequest */ = {
+			isa = PBXGroup;
+			children = (
+				59D125F3138D298E00D9EFC5 /* SSWebRequest.h */,
+				59D125F4138D298E00D9EFC5 /* SSWebRequest.m */,
+				59D125F5138D298E00D9EFC5 /* SSWebRequestDelegate.h */,
+				59D125F6138D298E00D9EFC5 /* SSWebRequestParams.h */,
+				59D125F7138D298E00D9EFC5 /* SSWebRequestParams.m */,
+			);
+			path = SSWebRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,11 +294,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SSLocationManagerAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* SSLocationManagerViewController.m in Sources */,
-				592F0BD3138BEC7B002A3967 /* SSWebRequest.m in Sources */,
-				592F0BD4138BEC7B002A3967 /* SSWebRequestParams.m in Sources */,
-				592F0BD5138BEC7B002A3967 /* YahooPlaceData.m in Sources */,
-				592F0BD6138BEC7B002A3967 /* SSLocationManager.m in Sources */,
-				592F0BD7138BEC7B002A3967 /* YahooPlaceFinder.m in Sources */,
 				592F0BEB138BECD4002A3967 /* NSObject+Helpers.m in Sources */,
 				592F0BEC138BECD4002A3967 /* NSObject+SBJSON.m in Sources */,
 				592F0BED138BECD4002A3967 /* NSString+SBJSON.m in Sources */,
@@ -293,6 +304,11 @@
 				592F0BFA138BED4A002A3967 /* MulticastDelegate.m in Sources */,
 				592F0C1B138BEF48002A3967 /* UIHelpers.m in Sources */,
 				592F0C2B138BF0E8002A3967 /* NSString+Helpers.m in Sources */,
+				59D125EF138D298500D9EFC5 /* SSLocationManager.m in Sources */,
+				59D125F0138D298500D9EFC5 /* YahooPlaceData.m in Sources */,
+				59D125F1138D298500D9EFC5 /* YahooPlaceFinder.m in Sources */,
+				59D125F8138D298E00D9EFC5 /* SSWebRequest.m in Sources */,
+				59D125F9138D298E00D9EFC5 /* SSWebRequestParams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
