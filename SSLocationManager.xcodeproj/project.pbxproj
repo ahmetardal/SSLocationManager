@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SSLocationManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SSLocationManagerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SSLocationManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SSLocationManagerViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SSLocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SSLocationManagerViewController.m */; };
+		592F0BD3138BEC7B002A3967 /* SSWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BC9138BEC7B002A3967 /* SSWebRequest.m */; };
+		592F0BD4138BEC7B002A3967 /* SSWebRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BCC138BEC7B002A3967 /* SSWebRequestParams.m */; };
+		592F0BD5138BEC7B002A3967 /* YahooPlaceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BCE138BEC7B002A3967 /* YahooPlaceData.m */; };
+		592F0BD6138BEC7B002A3967 /* SSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BD0138BEC7B002A3967 /* SSLocationManager.m */; };
+		592F0BD7138BEC7B002A3967 /* YahooPlaceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BD2138BEC7B002A3967 /* YahooPlaceFinder.m */; };
+		592F0BEB138BECD4002A3967 /* NSObject+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BDC138BECD4002A3967 /* NSObject+Helpers.m */; };
+		592F0BEC138BECD4002A3967 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE0138BECD4002A3967 /* NSObject+SBJSON.m */; };
+		592F0BED138BECD4002A3967 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE2138BECD4002A3967 /* NSString+SBJSON.m */; };
+		592F0BEE138BECD4002A3967 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE4138BECD4002A3967 /* SBJSON.m */; };
+		592F0BEF138BECD4002A3967 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE6138BECD4002A3967 /* SBJsonBase.m */; };
+		592F0BF0138BECD4002A3967 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BE8138BECD4002A3967 /* SBJsonParser.m */; };
+		592F0BF1138BECD4002A3967 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BEA138BECD4002A3967 /* SBJsonWriter.m */; };
+		592F0BFA138BED4A002A3967 /* MulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BF9138BED4A002A3967 /* MulticastDelegate.m */; };
+		592F0C1B138BEF48002A3967 /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0C1A138BEF48002A3967 /* UIHelpers.m */; };
+		592F0C2B138BF0E8002A3967 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F0C2A138BF0E8002A3967 /* NSString+Helpers.m */; };
+		592F0C39138BF127002A3967 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592F0C38138BF127002A3967 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SSLocationManagerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManagerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SSLocationManagerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocationManagerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SSLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SSLocationManagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSLocationManagerViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SSLocationManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManagerViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SSLocationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocationManagerViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SSLocationManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManager_Prefix.pch; sourceTree = "<group>"; };
+		592F0BC8138BEC7B002A3967 /* SSWebRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequest.h; sourceTree = "<group>"; };
+		592F0BC9138BEC7B002A3967 /* SSWebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebRequest.m; sourceTree = "<group>"; };
+		592F0BCA138BEC7B002A3967 /* SSWebRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequestDelegate.h; sourceTree = "<group>"; };
+		592F0BCB138BEC7B002A3967 /* SSWebRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebRequestParams.h; sourceTree = "<group>"; };
+		592F0BCC138BEC7B002A3967 /* SSWebRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWebRequestParams.m; sourceTree = "<group>"; };
+		592F0BCD138BEC7B002A3967 /* YahooPlaceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooPlaceData.h; sourceTree = "<group>"; };
+		592F0BCE138BEC7B002A3967 /* YahooPlaceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooPlaceData.m; sourceTree = "<group>"; };
+		592F0BCF138BEC7B002A3967 /* SSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocationManager.h; sourceTree = "<group>"; };
+		592F0BD0138BEC7B002A3967 /* SSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocationManager.m; sourceTree = "<group>"; };
+		592F0BD1138BEC7B002A3967 /* YahooPlaceFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooPlaceFinder.h; sourceTree = "<group>"; };
+		592F0BD2138BEC7B002A3967 /* YahooPlaceFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooPlaceFinder.m; sourceTree = "<group>"; };
+		592F0BDB138BECD4002A3967 /* NSObject+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Helpers.h"; sourceTree = "<group>"; };
+		592F0BDC138BECD4002A3967 /* NSObject+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Helpers.m"; sourceTree = "<group>"; };
+		592F0BDE138BECD4002A3967 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		592F0BDF138BECD4002A3967 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		592F0BE0138BECD4002A3967 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		592F0BE1138BECD4002A3967 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		592F0BE2138BECD4002A3967 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		592F0BE3138BECD4002A3967 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		592F0BE4138BECD4002A3967 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		592F0BE5138BECD4002A3967 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		592F0BE6138BECD4002A3967 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		592F0BE7138BECD4002A3967 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		592F0BE8138BECD4002A3967 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		592F0BE9138BECD4002A3967 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		592F0BEA138BECD4002A3967 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		592F0BF8138BED4A002A3967 /* MulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastDelegate.h; sourceTree = "<group>"; };
+		592F0BF9138BED4A002A3967 /* MulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastDelegate.m; sourceTree = "<group>"; };
+		592F0C19138BEF48002A3967 /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
+		592F0C1A138BEF48002A3967 /* UIHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelpers.m; sourceTree = "<group>"; };
+		592F0C29138BF0E8002A3967 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		592F0C2A138BF0E8002A3967 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
+		592F0C38138BF127002A3967 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* SSLocationManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSLocationManager-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				592F0C39138BF127002A3967 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				592F0BC7138BEC7B002A3967 /* SSLocationManager */,
+				1D3623240D0F684500981E51 /* SSLocationManagerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SSLocationManagerAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SSLocationManagerViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SSLocationManagerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SSLocationManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SSLocationManager_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* SSLocationManagerViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SSLocationManager-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				592F0C38138BF127002A3967 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		592F0BC7138BEC7B002A3967 /* SSLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				592F0BDA138BECD4002A3967 /* Helpers */,
+				592F0BDD138BECD4002A3967 /* SBJSON */,
+				592F0BCF138BEC7B002A3967 /* SSLocationManager.h */,
+				592F0BD0138BEC7B002A3967 /* SSLocationManager.m */,
+				592F0BC8138BEC7B002A3967 /* SSWebRequest.h */,
+				592F0BC9138BEC7B002A3967 /* SSWebRequest.m */,
+				592F0BCA138BEC7B002A3967 /* SSWebRequestDelegate.h */,
+				592F0BCB138BEC7B002A3967 /* SSWebRequestParams.h */,
+				592F0BCC138BEC7B002A3967 /* SSWebRequestParams.m */,
+				592F0BCD138BEC7B002A3967 /* YahooPlaceData.h */,
+				592F0BCE138BEC7B002A3967 /* YahooPlaceData.m */,
+				592F0BD1138BEC7B002A3967 /* YahooPlaceFinder.h */,
+				592F0BD2138BEC7B002A3967 /* YahooPlaceFinder.m */,
+			);
+			path = SSLocationManager;
+			sourceTree = "<group>";
+		};
+		592F0BDA138BECD4002A3967 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				592F0C29138BF0E8002A3967 /* NSString+Helpers.h */,
+				592F0C2A138BF0E8002A3967 /* NSString+Helpers.m */,
+				592F0C19138BEF48002A3967 /* UIHelpers.h */,
+				592F0C1A138BEF48002A3967 /* UIHelpers.m */,
+				592F0BF8138BED4A002A3967 /* MulticastDelegate.h */,
+				592F0BF9138BED4A002A3967 /* MulticastDelegate.m */,
+				592F0BDB138BECD4002A3967 /* NSObject+Helpers.h */,
+				592F0BDC138BECD4002A3967 /* NSObject+Helpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		592F0BDD138BECD4002A3967 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				592F0BDE138BECD4002A3967 /* JSON.h */,
+				592F0BDF138BECD4002A3967 /* NSObject+SBJSON.h */,
+				592F0BE0138BECD4002A3967 /* NSObject+SBJSON.m */,
+				592F0BE1138BECD4002A3967 /* NSString+SBJSON.h */,
+				592F0BE2138BECD4002A3967 /* NSString+SBJSON.m */,
+				592F0BE3138BECD4002A3967 /* SBJSON.h */,
+				592F0BE4138BECD4002A3967 /* SBJSON.m */,
+				592F0BE5138BECD4002A3967 /* SBJsonBase.h */,
+				592F0BE6138BECD4002A3967 /* SBJsonBase.m */,
+				592F0BE7138BECD4002A3967 /* SBJsonParser.h */,
+				592F0BE8138BECD4002A3967 /* SBJsonParser.m */,
+				592F0BE9138BECD4002A3967 /* SBJsonWriter.h */,
+				592F0BEA138BECD4002A3967 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SSLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SSLocationManager" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLocationManager;
+			productName = SSLocationManager;
+			productReference = 1D6058910D05DD3D006BFB54 /* SSLocationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SSLocationManager" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SSLocationManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SSLocationManagerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SSLocationManagerAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SSLocationManagerViewController.m in Sources */,
+				592F0BD3138BEC7B002A3967 /* SSWebRequest.m in Sources */,
+				592F0BD4138BEC7B002A3967 /* SSWebRequestParams.m in Sources */,
+				592F0BD5138BEC7B002A3967 /* YahooPlaceData.m in Sources */,
+				592F0BD6138BEC7B002A3967 /* SSLocationManager.m in Sources */,
+				592F0BD7138BEC7B002A3967 /* YahooPlaceFinder.m in Sources */,
+				592F0BEB138BECD4002A3967 /* NSObject+Helpers.m in Sources */,
+				592F0BEC138BECD4002A3967 /* NSObject+SBJSON.m in Sources */,
+				592F0BED138BECD4002A3967 /* NSString+SBJSON.m in Sources */,
+				592F0BEE138BECD4002A3967 /* SBJSON.m in Sources */,
+				592F0BEF138BECD4002A3967 /* SBJsonBase.m in Sources */,
+				592F0BF0138BECD4002A3967 /* SBJsonParser.m in Sources */,
+				592F0BF1138BECD4002A3967 /* SBJsonWriter.m in Sources */,
+				592F0BFA138BED4A002A3967 /* MulticastDelegate.m in Sources */,
+				592F0C1B138BEF48002A3967 /* UIHelpers.m in Sources */,
+				592F0C2B138BF0E8002A3967 /* NSString+Helpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SSLocationManager_Prefix.pch;
+				INFOPLIST_FILE = "SSLocationManager-Info.plist";
+				PRODUCT_NAME = SSLocationManager;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SSLocationManager_Prefix.pch;
+				INFOPLIST_FILE = "SSLocationManager-Info.plist";
+				PRODUCT_NAME = SSLocationManager;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SSLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SSLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
