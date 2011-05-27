@@ -271,7 +271,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SSLocationManagerViewController.m</string>
+								<string>YahooPlaceData.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,27 +322,38 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SSLocationManagerViewController.m</string>
+										<string>YahooPlaceData.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>59D12601138D2A4600D9EFC5</string>
+										<string>5990E21F138FBCDA006B993C</string>
 										<key>history</key>
 										<array>
 											<string>59D1255D138D164800D9EFC5</string>
 											<string>59D125A3138D1FE900D9EFC5</string>
-											<string>59D125C6138D255500D9EFC5</string>
 											<string>59D125D9138D293000D9EFC5</string>
-											<string>59D125DA138D293000D9EFC5</string>
-											<string>59D125DB138D293000D9EFC5</string>
-											<string>59D125DC138D293000D9EFC5</string>
-											<string>59D125DD138D293000D9EFC5</string>
-											<string>59D125DE138D293000D9EFC5</string>
-											<string>59D125DF138D293000D9EFC5</string>
-											<string>59D125E1138D293000D9EFC5</string>
 											<string>59D125E2138D293000D9EFC5</string>
 											<string>59D125FE138D29BC00D9EFC5</string>
-											<string>59D125C7138D255500D9EFC5</string>
+											<string>5990E1DA138F812F006B993C</string>
+											<string>5990E1DB138F812F006B993C</string>
+											<string>5990E1DC138F812F006B993C</string>
+											<string>5990E1DD138F812F006B993C</string>
+											<string>5990E1DE138F812F006B993C</string>
+											<string>5990E1DF138F812F006B993C</string>
+											<string>5990E1E0138F812F006B993C</string>
+											<string>5990E1E9138F828A006B993C</string>
+											<string>5990E1EB138F828A006B993C</string>
+											<string>5990E1EC138F828A006B993C</string>
+											<string>5990E1ED138F828A006B993C</string>
+											<string>5990E1EE138F828A006B993C</string>
+											<string>5990E1EF138F828A006B993C</string>
+											<string>5990E20F138FBC0E006B993C</string>
+											<string>5990E210138FBC0E006B993C</string>
+											<string>5990E211138FBC0E006B993C</string>
+											<string>5990E212138FBC0E006B993C</string>
+											<string>5990E213138FBC0E006B993C</string>
+											<string>5990E214138FBC0E006B993C</string>
+											<string>5990E215138FBC0E006B993C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -400,9 +411,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>59D12569138D164800D9EFC5</string>
+				<string>5990E1CB138F7C9A006B993C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>59D1256A138D164800D9EFC5</string>
+				<string>5990E1CC138F7C9A006B993C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -540,13 +551,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>59D1256B138D164800D9EFC5</string>
-		<string>59D1256C138D164800D9EFC5</string>
-		<string>1CD10A99069EF8BA00B06720</string>
+		<string>5990E217138FBC0E006B993C</string>
+		<string>5990E218138FBC0E006B993C</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>592F0BC1138BE9B3002A3967</string>
-		<string>/Users/ardalahmet/Documents/SSLocationManager/SSLocationManager.xcodeproj</string>
+		<string>/Users/ardalahmet/Documents/Projects/SSLocationManager/SSLocationManager.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1920 999 0 0 1920 1058 </string>
@@ -565,26 +575,28 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>&lt;No Editor&gt;</string>
+								<string>YahooPlaceFinder.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1920, 0}}</string>
+								<string>{{0, 0}, {1920, 286}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 60 1920 998 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>286pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -601,14 +613,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 5}, {1920, 952}}</string>
+								<string>{{0, 291}, {1920, 666}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 60 1920 998 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
 							<key>Proportion</key>
-							<string>952pt</string>
+							<string>666pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -626,7 +638,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>592F0BC1138BE9B3002A3967</string>
-				<string>59D12504138CD5D500D9EFC5</string>
+				<string>5990E1CD138F7C9A006B993C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -670,8 +682,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -686,8 +698,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -720,7 +732,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>21 613 694 422 0 0 1920 1058 </string>
 								</dict>
@@ -748,13 +760,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>59D12505138CD5D500D9EFC5</string>
+				<string>5990E1F6138F8927006B993C</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>59D12506138CD5D500D9EFC5</string>
-				<string>59D12507138CD5D500D9EFC5</string>
-				<string>59D12508138CD5D500D9EFC5</string>
-				<string>59D12509138CD5D500D9EFC5</string>
-				<string>59D1250A138CD5D500D9EFC5</string>
+				<string>5990E1F7138F8927006B993C</string>
+				<string>5990E1F8138F8927006B993C</string>
+				<string>5990E1F9138F8927006B993C</string>
+				<string>5990E1FA138F8927006B993C</string>
+				<string>5990E1FB138F8927006B993C</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -910,7 +922,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>59D1250B138CD5D500D9EFC5</string>
+				<string>5990E1FC138F8927006B993C</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

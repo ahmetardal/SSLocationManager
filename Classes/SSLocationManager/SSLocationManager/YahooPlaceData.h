@@ -67,7 +67,7 @@
 @property (nonatomic, retain) NSNumber *woetype;
 @property (nonatomic, retain) NSString *uzip;
 
-- (id) initWithJsonObject:(NSDictionary *)json;
+- (id) initWithJsonDictionary:(NSDictionary *)json;
 - (NSString *) toString;
 + (id) placeData;
 

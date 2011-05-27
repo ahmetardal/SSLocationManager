@@ -16,9 +16,9 @@
 
 @interface SSLocationManager: NSObject<YahooPlaceFinderDelegate, CLLocationManagerDelegate>
 {
-    YahooPlaceFinder  *_placeFinder;
+    YahooPlaceFinder *_placeFinder;
     CLLocationManager *_coreLocationManager;
-    YahooPlaceData         *currentLocation;
+    YahooPlaceData *currentLocation;
     CLLocationCoordinate2D currentCoordinate;
 
     MulticastDelegate<SSLocationManagerDelegate> *_multicastDelegate;

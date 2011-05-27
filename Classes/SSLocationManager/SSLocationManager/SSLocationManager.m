@@ -25,10 +25,11 @@
 - (void) startUpdatingCurrentLocation
 {
     if (_updateInProgress) {
+        NSLog(@"SSLocationManager::startUpdatingCurrentLocation - cannot start a new update, one is already in progress");
         return;
     }
 
-    NSLog(@"starting location update");
+    NSLog(@"SSLocationManager::startUpdatingCurrentLocation - starting location update");
     _updateInProgress = YES;
     [_coreLocationManager startUpdatingLocation];
 }
@@ -83,13 +84,12 @@
         return;
     }
 
-    //
-    // device updated location, now fetch data about the location using Yahoo Places API
-    //
-    double lat = newLocation.coordinate.latitude;
-    double lot = newLocation.coordinate.longitude;
-    NSLog(@"SSLocationManager::locationManager:didUpdateToLocation:fromLocation - new location: %.02f %.02f%", lat, lot);
+    NSLog(@"SSLocationManager::locationManager:didUpdateToLocation:fromLocation - new location: %.02f %.02f%",
+          newLocation.coordinate.latitude, newLocation.coordinate.longitude);
 
+    //
+    // device updated location, now start fetching data about the location using Yahoo Places API
+    //
     [manager stopUpdatingLocation];
     [_placeFinder startUpdatingPlaceDataForCoordinate:newLocation.coordinate];
     currentCoordinate = newLocation.coordinate;
@@ -97,7 +97,7 @@
 
 - (void) locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
 {
-    NSLog(@"SSLocationManager::locationManager:didFailWithError - location manager failed with: %@", [error description]);
+    NSLog(@"SSLocationManager::locationManager:didFailWithError - location manager failed with error: %@", [error description]);
     [manager stopUpdatingLocation];
     [_multicastDelegate ssLocationManager:self didFailWithError:error];
     _updateInProgress = NO;
@@ -110,11 +110,7 @@
 
 - (void) placeFinder:(YahooPlaceFinder *)placeFinder didUpdatePlaceData:(YahooPlaceData *)placeData
 {
-    NSLog(@"YahooPlaceFinder request finished");
-    NSString *placeInfo = [NSString stringWithFormat:@"country: %@, state: %@, county: %@, city: %@, woeid: %d",
-                           placeData.country, placeData.state, placeData.county, placeData.city, placeData.woeid];
-    NSLog(@"YahooPlaceFinder - Place info fetched --> %@", placeInfo);
-
+    NSLog(@"SSLocationManager::placeFinder:didUpdatePlaceData - YahooPlaceFinder request finished");
     self.currentLocation = placeData;
     [_multicastDelegate ssLocationManager:self updatedCurrentLocation:placeData];
     _updateInProgress = NO;
@@ -122,7 +118,7 @@
 
 - (void) placeFinder:(YahooPlaceFinder *)placeFinder didFail:(NSError *)error
 {
-    NSLog(@"YahooPlaceFinder request failed");
+    NSLog(@"SSLocationManager::placeFinder:didFail - YahooPlaceFinder request failed");
     [_multicastDelegate ssLocationManager:self didFailWithError:error];
     _updateInProgress = NO;
 }

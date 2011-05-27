@@ -38,7 +38,7 @@
 @synthesize woetype;
 @synthesize uzip;
 
-- (id) initWithJsonObject:(NSDictionary *)json
+- (id) initWithJsonDictionary:(NSDictionary *)json
 {
     if (!(self = [super init])) {
         return self;
@@ -48,6 +48,9 @@
         return self;
     }
 
+    //
+    // set all properties using KVC
+    //
     for (NSString *key in [json allKeys]) {
         @try {
             [self setValue:[json objectForKey:key] forKey:key];

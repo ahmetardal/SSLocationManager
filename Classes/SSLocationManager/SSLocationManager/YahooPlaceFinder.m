@@ -18,7 +18,7 @@
  */
 
 static NSString *const kYahooPlacesApiEndPoint = @"http://where.yahooapis.com/geocode";
-static NSString *const kYahooPlacesApiAppId = @"zHgnBS4m";  // create one at: https://developer.apps.yahoo.com/dashboard/createKey.html
+static NSString *const kYahooPlacesApiAppId = @"zHgnBS4m";  // create one for your app at: https://developer.apps.yahoo.com/dashboard/createKey.html
 
 @implementation YahooPlaceFinder
 
@@ -60,18 +60,22 @@ static NSString *const kYahooPlacesApiAppId = @"zHgnBS4m";  // create one at: ht
         NSLog(@"this YahooPlaceFinder instance is already updating, can't start another update.");
         return;
     }
-    
+
+    //
     // prepare querystring
+    //
     NSString *locationToken = [NSString stringWithFormat:@"%.06f,%.06f", latitude, longitude];
     SSWebRequestParams *params = [[SSWebRequestParams alloc] init];
     [params addKey:@"location" withValue:locationToken];
-    [params addKey:@"flags"    withValue:@"J"]; // json
+    [params addKey:@"flags"    withValue:@"J"]; // response format: json
     [params addKey:@"gflags"   withValue:@"R"]; // reverse-geo-lookup
     [params addKey:@"appid"    withValue:kYahooPlacesApiAppId];
     NSString *queryString = [params getPostDataStringEncoded];
     [params release];
 
+    //
     // start request
+    //
     NSString *url = [NSString stringWithFormat:@"%@?%@", kYahooPlacesApiEndPoint, queryString];
     SSWebRequest *request = [SSWebRequest requestWithDelegate:self];
     [request startWithUrl:url];
@@ -92,7 +96,6 @@ static NSString *const kYahooPlacesApiAppId = @"zHgnBS4m";  // create one at: ht
 
 - (void) updateFailed
 {
-    NSLog(@"yahoo place finder request failed, but http response successful");
     self.status = kYahooPlaceFinderStatus_Failed;
     if ((self.delegate != nil) && [self.delegate respondsToSelector:@selector(placeFinder:didFail:)]) {
         [self.delegate placeFinder:self didFail:nil];
@@ -122,7 +125,7 @@ static NSString *const kYahooPlacesApiAppId = @"zHgnBS4m";  // create one at: ht
     if ((self.delegate != nil) && [self.delegate respondsToSelector:@selector(placeFinder:didUpdatePlaceData:)]) {
         YahooPlaceData *place = nil;
         @try {
-            place = [[[YahooPlaceData alloc] initWithJsonObject:rawPlaceData] autorelease];
+            place = [[[YahooPlaceData alloc] initWithJsonDictionary:rawPlaceData] autorelease];
         }
         @catch (NSException *e) {
             [self updateFailed]; return;
@@ -134,7 +137,7 @@ static NSString *const kYahooPlacesApiAppId = @"zHgnBS4m";  // create one at: ht
 
 - (void) SSWebRequest:(SSWebRequest *)request didFailWithError:(NSError *)error
 {
-    NSLog(@"yahoo place finder request failed with: %@", (error ? [error description] : @""));
+    NSLog(@"yahoo place finder request failed with error: %@", (error ? [error description] : @""));
 
     self.status = kYahooPlaceFinderStatus_Failed;
     if ((self.delegate != nil) && [self.delegate respondsToSelector:@selector(placeFinder:didFail:)]) {
