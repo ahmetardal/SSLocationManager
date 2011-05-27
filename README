@@ -1,6 +1,8 @@
-A compact obj-c library for obtaining location data using CoreLocation and Yahoo Places API.
+SSLocationManager is a compact obj-c library for obtaining location data using CoreLocation and Yahoo! PlaceFinder API.
 
-NOTE: will add a brief manual on how to use it in your projects when I've the time.
+To find out more on how to use it:
+http://www.ardalahmet.com/2011/05/27/sslocationmanager/
+
 
 For any questions and suggestions contact me at:
 http://twitter.com/ardalahmet
