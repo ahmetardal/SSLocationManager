@@ -70,10 +70,11 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 328170625;
-			PBXWorkspaceStateSaveDate = 328170625;
+			PBXPerProjectTemplateStateSaveDate = 328437922;
+			PBXWorkspaceStateSaveDate = 328437922;
 		};
 		perUserProjectItems = {
+			59323ACD138FC60F007CA7AC /* PBXTextBookmark */ = 59323ACD138FC60F007CA7AC /* PBXTextBookmark */;
 			5990E1DA138F812F006B993C /* PBXTextBookmark */ = 5990E1DA138F812F006B993C /* PBXTextBookmark */;
 			5990E1DB138F812F006B993C /* PBXTextBookmark */ = 5990E1DB138F812F006B993C /* PBXTextBookmark */;
 			5990E1DC138F812F006B993C /* PBXTextBookmark */ = 5990E1DC138F812F006B993C /* PBXTextBookmark */;
@@ -87,14 +88,13 @@
 			5990E1ED138F828A006B993C /* PBXTextBookmark */ = 5990E1ED138F828A006B993C /* PBXTextBookmark */;
 			5990E1EE138F828A006B993C /* PBXTextBookmark */ = 5990E1EE138F828A006B993C /* PBXTextBookmark */;
 			5990E1EF138F828A006B993C /* PBXTextBookmark */ = 5990E1EF138F828A006B993C /* PBXTextBookmark */;
-			5990E20F138FBC0E006B993C /* PBXTextBookmark */ = 5990E20F138FBC0E006B993C /* PBXTextBookmark */;
-			5990E210138FBC0E006B993C /* PBXTextBookmark */ = 5990E210138FBC0E006B993C /* PBXTextBookmark */;
 			5990E211138FBC0E006B993C /* PBXTextBookmark */ = 5990E211138FBC0E006B993C /* PBXTextBookmark */;
 			5990E212138FBC0E006B993C /* PBXTextBookmark */ = 5990E212138FBC0E006B993C /* PBXTextBookmark */;
 			5990E213138FBC0E006B993C /* PBXTextBookmark */ = 5990E213138FBC0E006B993C /* PBXTextBookmark */;
 			5990E214138FBC0E006B993C /* PBXTextBookmark */ = 5990E214138FBC0E006B993C /* PBXTextBookmark */;
-			5990E215138FBC0E006B993C /* PBXTextBookmark */ = 5990E215138FBC0E006B993C /* PBXTextBookmark */;
-			5990E21F138FBCDA006B993C /* PBXTextBookmark */ = 5990E21F138FBCDA006B993C /* PBXTextBookmark */;
+			5994D16413938FAC009E5153 /* PBXTextBookmark */ = 5994D16413938FAC009E5153 /* PBXTextBookmark */;
+			5994D16613938FAC009E5153 /* PBXTextBookmark */ = 5994D16613938FAC009E5153 /* PBXTextBookmark */;
+			5994D18613939E31009E5153 /* PBXTextBookmark */ = 5994D18613939E31009E5153 /* PBXTextBookmark */;
 			59D1255D138D164800D9EFC5 /* PBXTextBookmark */ = 59D1255D138D164800D9EFC5 /* PBXTextBookmark */;
 			59D125A3138D1FE900D9EFC5 /* PBXTextBookmark */ = 59D125A3138D1FE900D9EFC5 /* PBXTextBookmark */;
 			59D125D9138D293000D9EFC5 /* PBXTextBookmark */ = 59D125D9138D293000D9EFC5 /* PBXTextBookmark */;
@@ -205,6 +205,16 @@
 			sepNavSelRange = "{508, 0}";
 			sepNavVisRange = "{0, 508}";
 		};
+	};
+	59323ACD138FC60F007CA7AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 59D125EB138D298500D9EFC5 /* YahooPlaceData.h */;
+		name = "YahooPlaceData.h: 12";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 0;
 	};
 	5990E1DA138F812F006B993C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -336,26 +346,6 @@
 		vrLen = 1242;
 		vrLoc = 0;
 	};
-	5990E20F138FBC0E006B993C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 59D125EA138D298500D9EFC5 /* SSLocationManager.m */;
-		name = "SSLocationManager.m: 36";
-		rLen = 0;
-		rLoc = 829;
-		rType = 0;
-		vrLen = 3511;
-		vrLoc = 155;
-	};
-	5990E210138FBC0E006B993C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 59D125EE138D298500D9EFC5 /* YahooPlaceFinder.m */;
-		name = "YahooPlaceFinder.m: 23";
-		rLen = 0;
-		rLoc = 721;
-		rType = 0;
-		vrLen = 2818;
-		vrLoc = 0;
-	};
 	5990E211138FBC0E006B993C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 59D125E9138D298500D9EFC5 /* SSLocationManager.h */;
@@ -396,25 +386,35 @@
 		vrLen = 1031;
 		vrLoc = 0;
 	};
-	5990E215138FBC0E006B993C /* PBXTextBookmark */ = {
+	5994D16413938FAC009E5153 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 59D125EB138D298500D9EFC5 /* YahooPlaceData.h */;
-		name = "YahooPlaceData.h: 75";
+		fRef = 59D125EE138D298500D9EFC5 /* YahooPlaceFinder.m */;
+		name = "YahooPlaceFinder.m: 37";
 		rLen = 0;
-		rLoc = 2319;
+		rLoc = 1044;
 		rType = 0;
-		vrLen = 1829;
-		vrLoc = 490;
-	};
-	5990E21F138FBCDA006B993C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 59D125EB138D298500D9EFC5 /* YahooPlaceData.h */;
-		name = "YahooPlaceData.h: 12";
-		rLen = 0;
-		rLoc = 236;
-		rType = 0;
-		vrLen = 1414;
+		vrLen = 1273;
 		vrLoc = 0;
+	};
+	5994D16613938FAC009E5153 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 59D125EA138D298500D9EFC5 /* SSLocationManager.m */;
+		name = "SSLocationManager.m: 74";
+		rLen = 915;
+		rLoc = 1634;
+		rType = 0;
+		vrLen = 2998;
+		vrLoc = 391;
+	};
+	5994D18613939E31009E5153 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 59D125EA138D298500D9EFC5 /* SSLocationManager.m */;
+		name = "SSLocationManager.m: 88";
+		rLen = 0;
+		rLoc = 2245;
+		rType = 0;
+		vrLen = 2998;
+		vrLoc = 391;
 	};
 	59D1255D138D164800D9EFC5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -472,10 +472,10 @@
 	};
 	59D125EA138D298500D9EFC5 /* SSLocationManager.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{306, 45}\";\n            s = 0;\n        },\n                {\n            r = \"{392, 48}\";\n            s = 0;\n        },\n                {\n            r = \"{482, 345}\";\n            s = 0;\n        },\n                {\n            r = \"{891, 435}\";\n            s = 0;\n        },\n                {\n            r = \"{1351, 216}\";\n            s = 0;\n        },\n                {\n            r = \"{1791, 757}\";\n            s = 0;\n        },\n                {\n            r = \"{2640, 330}\";\n            s = 0;\n        },\n                {\n            r = \"{3137, 250}\";\n            s = 0;\n        },\n                {\n            r = \"{3469, 189}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 3666}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1510, 1026}}";
-			sepNavSelRange = "{394, 0}";
-			sepNavVisRange = "{155, 905}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{306, 45}\";\n            s = 0;\n        },\n                {\n            r = \"{392, 48}\";\n            s = 0;\n        },\n                {\n            r = \"{482, 345}\";\n            s = 0;\n        },\n                {\n            r = \"{891, 435}\";\n            s = 0;\n        },\n                {\n            r = \"{1351, 216}\";\n            s = 0;\n        },\n                {\n            r = \"{2640, 330}\";\n            s = 0;\n        },\n                {\n            r = \"{3137, 250}\";\n            s = 0;\n        },\n                {\n            r = \"{3469, 189}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 3666}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 1368}}";
+			sepNavSelRange = "{1161, 0}";
+			sepNavVisRange = "{347, 1380}";
 		};
 	};
 	59D125EB138D298500D9EFC5 /* YahooPlaceData.h */ = {
@@ -501,9 +501,9 @@
 	};
 	59D125EE138D298500D9EFC5 /* YahooPlaceFinder.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1859, 2628}}";
-			sepNavSelRange = "{4002, 0}";
-			sepNavVisRange = "{3660, 551}";
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 2862}}";
+			sepNavSelRange = "{1044, 0}";
+			sepNavVisRange = "{0, 1273}";
 		};
 	};
 	59D125F3138D298E00D9EFC5 /* SSWebRequest.h */ = {
