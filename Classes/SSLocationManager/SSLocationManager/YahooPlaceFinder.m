@@ -1,3 +1,20 @@
+
+/*
+ Copyright 2011 Ahmet Ardal
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
 //
 //  YahooPlaceFinderHelper.m
 //  SSLocationManager
@@ -15,6 +32,7 @@
 /*
  * REF: http://developer.yahoo.com/geo/placefinder/
  * REF: http://developer.yahoo.com/geo/placefinder/guide/requests.html#base-uri
+ * EXAMPLE REQUEST: http://where.yahooapis.com/geocode?location=37.42,-122.12&flags=J&gflags=R&appid=zHgnBS4m
  */
 
 static NSString *const kYahooPlacesApiEndPoint = @"http://where.yahooapis.com/geocode";
